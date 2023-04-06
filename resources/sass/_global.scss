@@ -1,0 +1,338 @@
+.banner{
+    align-items: center;
+
+    .bg-text{
+        position: absolute;
+        left: 30%;
+        bottom: 1%;
+        font-size: 24px;
+        text-align: center;
+        background: #000000bb;
+        color: #ffffff;
+        border-radius: 7px;
+        width: 40%;
+
+        p{
+            text-transform: uppercase;
+        }
+    }
+}
+
+//All Page Contents
+.page-contents{
+    .banner{
+        img {
+          width: 100%;
+          height: 650px;
+          object-fit: cover;
+        }
+    }
+
+    // Underline Header
+    .underline-header {
+        padding-bottom: 0.75rem;
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        font-weight: bold;
+        text-shadow: 1px 1px 3px rgb(123, 123, 123);
+        position: relative;
+    }
+    
+    .underline-header:after {
+        content: "";
+        position: absolute;
+        left: 25%;
+        bottom: 0;
+        border: 3px solid red;
+        width: 50%;
+        animation: mymove 1.5s;
+    }
+    
+    @keyframes mymove {
+        0% {
+            width: 0%;
+            left: 50%;
+        }
+        100% {
+            left: 25%;
+            width: 50%;
+        }
+    }
+    // Banner Pages
+    .header-page{
+        background-color: #F9F9F9;
+        height: 60px;
+        padding: 10px 20px;
+
+        ol{
+            margin-top: 0.5rem;
+            list-style: none;
+
+            li{
+                display: inline;
+                margin-right: 10px;
+                text-transform: uppercase;
+                font-size: 14px;
+                a{
+                    text-decoration: none;
+                    strong{
+                        color: red;
+                        font-weight: bold;
+                        text-shadow: 0.5px 0.25px #8f8f8f;
+                    }
+                }
+            }
+        }
+    }
+
+    // Csrd Article News and Activities 
+    .card-article-news-and-activities{
+        padding-bottom: 3%;
+        a{
+            text-decoration: none;
+            .txt-content{
+                text-align: center;
+                text-transform: uppercase;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                font-weight: bold;
+                font-size: 18px;
+            }
+        }
+    }
+
+    //Single Content page
+    .single-content{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-top: 1.5rem;
+        margin-bottom: 5rem;
+        .video{
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+
+            h2{
+                margin: 0;
+                color: #000;
+                margin-bottom: 1.5rem;
+            }
+        }
+        .gallery{
+            margin-top: 3rem;
+            margin-bottom: 4rem;
+            .txt-content{
+                text-align: center;
+                text-transform: uppercase;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                font-weight: bold;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .card-articlr-projects{
+        padding-bottom: 3%;
+        a{
+            text-decoration: none;
+            .card-content{
+                .text-animetion{
+                    transition: 0.5s;
+                    .bg-text{
+                        text-align: center;
+                        background: #ffffffd2;
+                        color: #000;
+                        border-radius: 7px;
+                    }
+                }
+            }
+            
+            .card-content:hover{
+                transition: 0.5s;
+                box-shadow: 2px 2px 15px 4px rgb(209, 209, 209);
+                .text-animetion{
+                    padding-bottom: 2rem;
+                    transition: 0.5s;
+                }
+            }
+            
+        }
+        .txt-content{
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    }
+
+    // Card Join Us All
+    .card-join-us{
+        padding-bottom: 3%;
+        .txt-content{
+            text-align: center;
+            text-transform: uppercase;
+            padding: 0.5rem;
+            font-weight: bold;
+            font-size: 18px;
+            color: red;
+
+            .btn{
+                font-weight: bold;
+                color: #fff;
+                background-color: red;
+                padding: 10px 30px;
+            }
+            .btn:hover{
+                background-color: #1a2343;
+            }
+        }
+        .class-image{
+            padding-left: 2rem;
+            padding-right: 2rem;
+            .v-img{
+                border-radius: 5px;
+                height: 200px;
+            }
+        }
+    }
+
+    // Background parallax
+    .bg-parallax{
+        .v-responsive__sizer{
+            padding-bottom: 20% !important;
+        }
+        img{
+            filter: blur(3px);
+        }
+        .bg-text {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0, 0.8);
+            color: white;
+            .discription-stype{
+                h3{
+                    color: #ffffff;
+                }
+                ul{
+                    list-style: none;
+                    padding-top: 1rem;
+                    padding-left: 3rem;
+                    li{
+                    color: #ffffff;
+                    }
+                }
+            }
+            h1{
+                margin-top: 3.5rem;
+                margin-bottom: 0.5rem;
+                color: #fff;
+                font-size: 54px;
+                text-align: center;
+            }
+            .stype-card-text{
+                width: 25%;
+                position: absolute;
+                top: 30%;
+                left: 40%;
+                
+                h3{
+                    margin-top: 1rem;
+                    i{
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }        
+    }
+
+    .discription-stype{
+        padding: 3rem 0;
+        h3{
+            color: #000000;
+        }
+        ul{
+            list-style: none;
+            padding-top: 1rem;
+            padding-left: 2rem;
+            padding-bottom: 2rem;
+            li{
+            color: #000000;
+            }
+        }
+        .bg-btn{
+            height: auto;
+            padding: 12px 35px;
+            border: none;
+            color: #fff;
+            background-color: red;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .bg-btn:hover{
+            color: red;
+            background-color: #1a2343;
+        }
+    }
+
+    .bg-parallax-contant{
+        margin-bottom: 9rem;
+        .v-responsive__sizer{
+            padding-bottom: 20% !important;
+        }
+        img{
+            filter: blur(2px);
+        }
+        .bg-text {
+            margin: 0;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 0, 0, 0.7);
+            color: white;
+            font-weight: bold;
+            z-index: 2;
+            h1{
+                color: #fff;
+            }
+            h4{
+                margin-top: 1rem;
+                a{
+                    color: #fff;
+                }
+                a:hover{
+                    color: #001eff;
+                }
+                i{
+                    font-size: 32px;
+                    margin-right: 1.5rem;
+                }
+                
+            }
+          }        
+    }
+
+    .card-partner{
+        padding-bottom: 3%;
+        a{
+            text-decoration: none;
+            .bg-text{
+                padding: 0;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                opacity: 0;
+                transition: 0.3s;
+            }
+        }
+        a:hover{
+            .bg-text{
+                transition: 0.3;
+                opacity: 100%;
+            }
+        }
+    }
+}
+

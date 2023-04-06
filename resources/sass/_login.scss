@@ -1,0 +1,26 @@
+.login-admin{
+    margin: 0;
+    padding: 0;
+
+    .bg-color {
+        margin: 0;
+        max-width: 100%;
+        max-height: 100%;
+        background-color: #ffffff91;
+
+        .position-card{
+            width: 100%;
+            max-height: 100%;
+            position: absolute;
+            top: 25%;
+            left: 30%;
+
+            .v-col{
+                img{
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+        }
+    }
+}

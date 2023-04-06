@@ -1,0 +1,50 @@
+#home{
+    .card-content{
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+        .class-image{
+            padding: 0.25rem;
+            img{
+                height: 300px;
+                border-radius: 3px;
+                
+            }
+        }
+        .txt-content{
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .style-btn{
+            text-transform: uppercase;
+            text-align: center;
+            padding-bottom: 1.5rem;
+
+            .btn{
+                color: red;
+                border: 2px solid red;
+                border-radius: 3px;
+                font-size: 18px;
+                font-weight: bold;
+                padding: 15px 15px 30px;
+                text-shadow: 1px 1px 1.25px #585858 ;
+
+            }
+            .btn:hover{
+                background-color: red;
+                color:#fff;
+            }
+        }
+    }
+    .txt-anemetion{
+        text-align: center;
+        padding-top:25px ;
+        padding-bottom: 50px;
+        color: red;
+    }
+}
